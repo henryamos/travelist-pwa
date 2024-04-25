@@ -5,9 +5,9 @@ const manifestForPlugIn = {
   registerType:'prompt',
   includeAssests:['favicon.ico', "apple-touc-icon.png", "maskeable_icon.png", "android-chrome-192x192.png","android-chrome-512x512.png","maskable_icon.png"],
   manifest:{
-    name:"React-vite-app",
-    short_name:"react-vite-app",
-    description:"I am a simple vite app",
+    name:"Travel List App",
+    short_name:"TL App",
+    description:"Travel List App adding your packing list with PWA feature", 
     icons:[{
       src: './public/android-chrome-192x192.png',
       sizes:'192x192',
@@ -37,7 +37,7 @@ const manifestForPlugIn = {
   background_color:'#f0e7db',
   display:"standalone",
   scope:'/',
-  start_url:"/",
+  start_url:"https://travelist-pwa.vercel.app/",
   orientation:'portrait'
   }
 }
