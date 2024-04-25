@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from "vite-plugin-pwa";
 const manifestForPlugIn = {
   registerType:'prompt',
-  includeAssests:['favicon.ico', "apple-touc-icon.png", "maskeable_icon.png", "android-chrome-192x192.png","android-chrome-512x512.png","maskable_icon.png"],
+  includeAssests:['favicon.ico', "apple-touc-icon.png","maskable_icon.png"],
   manifest:{
     name:"Travel List App",
     short_name:"TL App",
